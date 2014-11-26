@@ -122,19 +122,10 @@ body,
 #container {
   height: 100%;
 }
-#header {
-  height: 300px;
-  position: relative;
-}
-#outer {
-  background-color: #ccc;
-}
-font: font-size font-sans {
-  -webkit-text-size-adjust: 100%;
-}
-header,
 body {
-  background-image: url("images/banner.jpg");
+  background: #eee;
+  font: 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  -webkit-text-size-adjust: 100%;
 }
 .outer {
   max-width: 920px;
@@ -168,22 +159,9 @@ body {
 }
 #container {
   position: relative;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
 }
 .mobile-nav-on {
   overflow: hidden;
-/* position absolute
-  top: 0
-  left: 0
-  width: 100%
-  background-image: url("images/banner.jpg")
-  height: 100%
-  -webkit-background-size: cover
-  -moz-background-size: cover
-  background-size: cover
-  z-index: -1 */
 }
 #wrap {
   height: 100%;
@@ -196,7 +174,7 @@ body {
   -ms-transition: 0.2s ease-out;
   transition: 0.2s ease-out;
   z-index: 1;
-  background-image: url("images/banner.jpg");
+  background: #eee;
 }
 .mobile-nav-on #wrap {
   left: 280px;
