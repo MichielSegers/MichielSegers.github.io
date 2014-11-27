@@ -179,6 +179,9 @@ body {
 .mobile-nav-on #wrap {
   left: 280px;
 }
+#banner {
+  height: 500px;
+}
 .article-date,
 .article-category-link,
 .archive-year {
@@ -273,7 +276,7 @@ body {
   font-weight: bold;
 }
 #header {
-  height: 300px;
+  height: 500px;
   position: relative;
   border-bottom: 1px solid #ddd;
 }
