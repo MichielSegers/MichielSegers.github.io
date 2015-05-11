@@ -15,6 +15,7 @@ Het netwerk van de politie is zeer uitgebreid en ingewikkeld. Dit komt omdat de 
 <meta property="og:description" content="Case-study: versie 1
 Inleiding
 Het netwerk van de politie is zeer uitgebreid en ingewikkeld. Dit komt omdat de politie een zeer grote groep is. Het netwerk moet zeer goed beveiligd worden omdat dit ze">
+<meta property="og:image" content="http://s27.postimg.org/4azn0rzgz/ISLP.jpg">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Geïntegreerde proef ~ Michiel Segers">
 <meta name="twitter:description" content="Case-study: versie 1
@@ -47,15 +48,19 @@ Het netwerk van de politie is zeer uitgebreid en ingewikkeld. Dit komt omdat de 
         
           <a class="main-nav-link" href="/">Home</a>
         
-          <a class="main-nav-link" href="/Teacher-aid">Teacher Aid</a>
-        
-          <a class="main-nav-link" href="/Frans">Frans</a>
+          <a class="main-nav-link" href="/Bedrijfseconomie">Bedrijfseconomie</a>
         
           <a class="main-nav-link" href="/Engels">Engels</a>
         
-          <a class="main-nav-link" href="/Stage">Stage</a>
+          <a class="main-nav-link" href="/Frans">Frans</a>
         
           <a class="main-nav-link" href="/Softwareontwikkeling">Softwareontwikkeling</a>
+        
+          <a class="main-nav-link" href="/Stage">Stage</a>
+        
+          <a class="main-nav-link" href="/Systeembeheer">Systeembeheer</a>
+        
+          <a class="main-nav-link" href="/Teacher-aid">Teacher Aid</a>
         
       </nav>
       <nav id="sub-nav">
@@ -87,6 +92,7 @@ Het netwerk van de politie is zeer uitgebreid en ingewikkeld. Dit komt omdat de 
 <p>Hoe het netwerk precies in verbonden is ook zeer interessant. Er zijn verschillende posten met elkaar verbonden via glasvezel. Diegene die niet via glasvezel verbonden zijn, zijn verbonden met een Explorer lijn. Uiteindelijk gaat alles naar Centraal onthaal, het hoofdgebouw. In het hoofdgebouw staan alle servers. Deze zijn zeer uitgebreid en onlangs nog vernieuwd. Voor het verbinden van alles en te verdelen gebruiken ze Nortel ERS 5520 Layer-3 switches. Ook hebben ze 4 VLAN’s. Dit zijn Virtuele LAN’s die verschillende kenmerken den doelen hebben. De reden dat ze bestaan is dat ze op 1 netwerken toch verschillende, niet met elkaar verbonden, netwerken hebben. Zo heb je een VLAN voor: Video, Voice, ISLP en management. Het ISLP netwerk mag, zoals eerder vermeld niet verbonden zijn met iets, daarom gebruiken ze voor de netwerken die niets met elkaar te maken hebben een VLAN. Wederom worden deze onderhouden door de informatici van politie voorkempen. </p>
 <h3 id="De_netwerken">De netwerken</h3>
 <p>Bij de politie gebruiken ze twee netwerken. Je hebt de Standalone PC’s die verbonden zijn met het administratief netwerk en de ISLP PC’s die verbonden zijn met het ISLP of politie netwerk. Het is zeer belangrijk dat deze niet met elkaar verbonden zijn. Als deze met elkaar verbonden zou zijn en ze zouden op een ISLP netwerk op een verkeerde site terechtkomen en zo een virus op het netwerk zetten kan het Belgische netwerk plat liggen en dit mag zeker niet gebeuren. Daarom is het adminstratief netwerk er voor de mensen die wel op het internet moeten werken. Beide netwerken worden door twee firewalls (twee voor elk netwerk) beveiligd. Moest de eerste gehackt worden of uitvallen hebben ze de tweede nog.  Het administratief netwerk is waar alle gegevens opstaan een goed voorbeeld hiervan zijn de chips die in dieren zitten. Als ze een hond vinden kunnen ze via een database in het netwerk snel de eigenaars vinden en contacteren. </p>
+<p><a href="http://s27.postimg.org/4azn0rzgz/ISLP.jpg" target="_blank" rel="external"><br><img src="http://s27.postimg.org/4azn0rzgz/ISLP.jpg"><br></a></p>
 <h3 id="Besluit">Besluit</h3>
 <p>Wat ik heb vernomen is dus dat het netwerk zeer complex is omdat er namelijk twee netwerken zijn en dat beide netwerken zeer goed beveiligd moeten worden. Ze investeren zeer veel geld en tijd om deze servers up-to-date te houden. De personen die dit onderhouden zijn de twee Informatici van politie voorkempen maar evenals de mensen van het bedrijf die de servers komen zetten. </p>
 <p>Bronnen: Steven Vangeel (Informaticus bij politie voorkempen)</p>
@@ -99,11 +105,16 @@ Het netwerk van de politie is zeer uitgebreid en ingewikkeld. Dit komt omdat de 
 <p>Ook was er vaak gesukkel met mailboxen. Doorheen de stage wanneer we pc’s moesten vervangen was de mailbox het grootste probleem. Zo hebben ze voor beide netwerken een online webmail aangemaakt met het domein politievoorkempen.be. Deze is nog in testfase en dus nog niet geheel af. Toch zijn vele hier al zeer blij mee omdat er nu voor beide netwerken maar één mailbox hebben. </p>
 <h3 id="Voordelen">Voordelen</h3>
 <p>Dit netwerk heeft ook zijn voordelen. Het maakt het werken een pak makkelijker en de communicatie is hierdoor ook zeer eenvoudig. Het coole aan dit netwerk is dat er ook VLAN’s in zitten. Virtuele LAN laat het toe om verschillende (virtuele) netwerken op één groot netwerk te zetten. Ze hebben voor video, management, telefonie en ISLP een andere VLAN. Dit is nodig omdat ze niet met elkaar verbonden mogen zijn. Dit is ook veel minder geheugen dat gebruikt wordt. Een eenvoudige, geweldige oplossing.</p>
+<p>Bronnen:</p>
+<ul>
+<li>Steven Vangeel (Informaticus bij politie voorkempen)</li>
+<li><a href="http://nl.wikipedia.org/wiki/Virtual_LAN" target="_blank" rel="external">Wikipedia</a></li>
+</ul>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/Case-study/index.html" data-id="b9zfynygdlw90qe6" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/Case-study/index.html" data-id="dj4nn3spvw9znn4y" class="article-share-link">Share</a>
       
       
     </footer>
@@ -130,15 +141,19 @@ Het netwerk van de politie is zeer uitgebreid en ingewikkeld. Dit komt omdat de 
   
     <a href="/" class="mobile-nav-link">Home</a>
   
-    <a href="/Teacher-aid" class="mobile-nav-link">Teacher Aid</a>
-  
-    <a href="/Frans" class="mobile-nav-link">Frans</a>
+    <a href="/Bedrijfseconomie" class="mobile-nav-link">Bedrijfseconomie</a>
   
     <a href="/Engels" class="mobile-nav-link">Engels</a>
   
-    <a href="/Stage" class="mobile-nav-link">Stage</a>
+    <a href="/Frans" class="mobile-nav-link">Frans</a>
   
     <a href="/Softwareontwikkeling" class="mobile-nav-link">Softwareontwikkeling</a>
+  
+    <a href="/Stage" class="mobile-nav-link">Stage</a>
+  
+    <a href="/Systeembeheer" class="mobile-nav-link">Systeembeheer</a>
+  
+    <a href="/Teacher-aid" class="mobile-nav-link">Teacher Aid</a>
   
 </nav>
     
