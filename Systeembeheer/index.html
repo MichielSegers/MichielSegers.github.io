@@ -15,6 +15,7 @@ Hie">
 <meta property="og:description" content="Case-Study
 Dit was de enigste taak voor systeembeheer wat me wel verbaasde. Het was op de site na een van de grootste en ingewikkeldste taak maar ik heb het toch tot een goed einde kunnen brengen.
 Hie">
+<meta property="og:image" content="http://s27.postimg.org/4azn0rzgz/ISLP.jpg">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Systeembeheer">
 <meta name="twitter:description" content="Case-Study
@@ -94,14 +95,39 @@ Hie">
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h2 id="Case-Study"><a href="http://michielsegers.github.io/Case-study/" target="_blank" rel="external">Case-Study</a></h2>
+        <h2 id="Case-Study">Case-Study</h2>
 <p>Dit was de enigste taak voor systeembeheer wat me wel verbaasde. Het was op de site na een van de grootste en ingewikkeldste taak maar ik heb het toch tot een goed einde kunnen brengen.</p>
 <p>Hierin praat ik over de opbouw van het netwerk van mijn stage plaats: de politie-voorkempen. Een voor een leg ik uit wat ze gebruiken en hoe ze dit toepassen. Zo probeer ik op een eenvoudige en compacte manier hun netwerk uit te leggen het het te vergelijken met dat van onze school. </p>
+<h1 id="Case-study:_versie_1">Case-study: versie 1</h1>
+<h3 id="Inleiding">Inleiding</h3>
+<p>Het netwerk van de politie is zeer uitgebreid en ingewikkeld. Dit komt omdat de politie een zeer grote groep is. Het netwerk moet zeer goed beveiligd worden omdat dit zeker niet gehackt mag worden omdat dit zeer belangrijke en geheime bestanden bevat. Het hele politie netwerk ga ik niet bespreken maar enkel van politie voorkempen. Dit omvat de gemeenten: Zoersel, Malle, Brecht en Schilde. In deze 4 gemeenten zijn 8 gebouwen gevestigd met een onderling netwerk. Het hoofd gebouw ligt in Sint-Antonius. Alle andere gebouwen zijn hier mee verbonden. Het hoofd gebouw is verbonden met Brussel waar de federale politie is gevestigd. Doordat er veel gebouwen op verschillende plaatsen zijn zorgt die voor moeilijke communicatie. Daardoor hebben ze project vaartdijk gestart. Dit project omvat de verhuizing van alle posten naar de vaartdijk in Brecht. </p>
+<h3 id="Inhoudelijke_uitleg">Inhoudelijke uitleg</h3>
+<p>Hoe het netwerk precies in verbonden is ook zeer interessant. Er zijn verschillende posten met elkaar verbonden via glasvezel. Diegene die niet via glasvezel verbonden zijn, zijn verbonden met een Explorer lijn. Uiteindelijk gaat alles naar Centraal onthaal, het hoofdgebouw. In het hoofdgebouw staan alle servers. Deze zijn zeer uitgebreid en onlangs nog vernieuwd. Voor het verbinden van alles en te verdelen gebruiken ze Nortel ERS 5520 Layer-3 switches. Ook hebben ze 4 VLAN�s. Dit zijn Virtuele LAN�s die verschillende kenmerken den doelen hebben. De reden dat ze bestaan is dat ze op 1 netwerken toch verschillende, niet met elkaar verbonden, netwerken hebben. Zo heb je een VLAN voor: Video, Voice, ISLP en management. Het ISLP netwerk mag, zoals eerder vermeld niet verbonden zijn met iets, daarom gebruiken ze voor de netwerken die niets met elkaar te maken hebben een VLAN. Wederom worden deze onderhouden door de informatici van politie voorkempen. </p>
+<h3 id="De_netwerken">De netwerken</h3>
+<p>Bij de politie gebruiken ze twee netwerken. Je hebt de Standalone PC�s die verbonden zijn met het administratief netwerk en de ISLP PC�s die verbonden zijn met het ISLP of politie netwerk. Het is zeer belangrijk dat deze niet met elkaar verbonden zijn. Als deze met elkaar verbonden zou zijn en ze zouden op een ISLP netwerk op een verkeerde site terechtkomen en zo een virus op het netwerk zetten kan het Belgische netwerk plat liggen en dit mag zeker niet gebeuren. Daarom is het adminstratief netwerk er voor de mensen die wel op het internet moeten werken. Beide netwerken worden door twee firewalls (twee voor elk netwerk) beveiligd. Moest de eerste gehackt worden of uitvallen hebben ze de tweede nog.  Het administratief netwerk is waar alle gegevens opstaan een goed voorbeeld hiervan zijn de chips die in dieren zitten. Als ze een hond vinden kunnen ze via een database in het netwerk snel de eigenaars vinden en contacteren. </p>
+<p><a href="http://s27.postimg.org/4azn0rzgz/ISLP.jpg" target="_blank" rel="external"><br><img src="http://s27.postimg.org/4azn0rzgz/ISLP.jpg"><br></a></p>
+<h3 id="Besluit">Besluit</h3>
+<p>Wat ik heb vernomen is dus dat het netwerk zeer complex is omdat er namelijk twee netwerken zijn en dat beide netwerken zeer goed beveiligd moeten worden. Ze investeren zeer veel geld en tijd om deze servers up-to-date te houden. De personen die dit onderhouden zijn de twee Informatici van politie voorkempen maar evenals de mensen van het bedrijf die de servers komen zetten. </p>
+<p>Bronnen: Steven Vangeel (Informaticus bij politie voorkempen)</p>
+<hr>
+<h1 id="Case-study:_versie_2">Case-study: versie 2</h1>
+<h3 id="Inleiding-1">Inleiding</h3>
+<p>De politie heeft een zeer ingewikkeld en uitgebreid netwerk. Persoonlijk vond ik het zeer interessant om meer weten over dit netwerk: Hoe het opgebouwd is, wie er aan werkt en wat ze van plan zijn in de toekomst. Het is klinkt allemaal wel positief maar er komen ook veel negatieve puntjes aan te pas. Zo ga ik uitleggen wat de voordelen en nadelen zijn van het netwerk van de politie.</p>
+<h3 id="Nadelen">Nadelen</h3>
+<p>Allereerst, het gehele netwerk bestaat uit twee verschillende netwerken die nooit met elkaar verbonden mogen zijn. Hier is al direct het eerste negatieve puntje. Het is onmogelijk om van het administratief (buitenwereld) in contact te komen met het Politie netwerk (binnen de onderneming). Dit is een probleem want sommige hebben 2 verschillende pc�s. De standalones en ISLP. Standalone zijn de pc�s op het administratief netwerk en ISLP op het politie netwerk. Dit wil zeggen da ze 2 aparten schijven hebben waar ze op werken op verschillende netwerken. Vele hebben gevraagd of dit niet op een manier kan verbonden worden maar dit wilt de ICT niet doen. </p>
+<p>Ook was er vaak gesukkel met mailboxen. Doorheen de stage wanneer we pc�s moesten vervangen was de mailbox het grootste probleem. Zo hebben ze voor beide netwerken een online webmail aangemaakt met het domein politievoorkempen.be. Deze is nog in testfase en dus nog niet geheel af. Toch zijn vele hier al zeer blij mee omdat er nu voor beide netwerken maar ��n mailbox hebben. </p>
+<h3 id="Voordelen">Voordelen</h3>
+<p>Dit netwerk heeft ook zijn voordelen. Het maakt het werken een pak makkelijker en de communicatie is hierdoor ook zeer eenvoudig. Het coole aan dit netwerk is dat er ook VLAN�s in zitten. Virtuele LAN laat het toe om verschillende (virtuele) netwerken op ��n groot netwerk te zetten. Ze hebben voor video, management, telefonie en ISLP een andere VLAN. Dit is nodig omdat ze niet met elkaar verbonden mogen zijn. Dit is ook veel minder geheugen dat gebruikt wordt. Een eenvoudige, geweldige oplossing.</p>
+<p>Bronnen:</p>
+<ul>
+<li>Steven Vangeel (Informaticus bij politie voorkempen)</li>
+<li><a href="http://nl.wikipedia.org/wiki/Virtual_LAN" target="_blank" rel="external">Wikipedia</a></li>
+</ul>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/Systeembeheer/index.html" data-id="k47yfiubpyp62wpp" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/Systeembeheer/index.html" data-id="yb4di0uevvephxye" class="article-share-link">Share</a>
       
       
     </footer>
