@@ -180,7 +180,7 @@ body {
   left: 280px;
 }
 #banner {
-  height: 500px;
+  height: 300px;
 }
 .article-date,
 .article-category-link,
@@ -276,7 +276,7 @@ body {
   font-weight: bold;
 }
 #header {
-  height: 500px;
+  height: 350px;
   position: relative;
   border-bottom: 1px solid #ddd;
 }
@@ -309,6 +309,7 @@ body {
 #header-inner {
   position: relative;
   overflow: hidden;
+  font-color: #fff;
 }
 #banner {
   position: absolute;
@@ -1050,7 +1051,7 @@ a.article-title:hover {
   color: #ddd;
 }
 #footer {
-  background-color: #099;
+  background-color: #009fff;
   padding: 50px 0;
   border-top: 1px solid #ddd;
   color: color-white;
